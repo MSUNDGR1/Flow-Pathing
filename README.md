@@ -3,8 +3,8 @@
 **Using topography data to predict the flow of water.**
 
 <p float="center">
-  <img src="elvpic.png" width="50%" />
-  <img src="flacc.gif" width="50%" />
+  <img src="elvpic.png" width="40%" />
+  <img src="flacc.gif" width="40%" />
   <br>
     <em> Delaware County PA elevation data and the resulting flow accumulation map derived from it. </em>
  </p>
