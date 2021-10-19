@@ -91,28 +91,6 @@ def flowDir(elvImg):
                 flDir[i][j] = -1
     return flDir
 
-"""
-def flowDirng(elvImg):
-    
-    flDir = np.empty([len(elvImg), len(elvImg[0])], dtype=np.ubyte)
-    for i in range(1,len(elvImg)-1):
-        for j in range(1,len(elvImg[0])-1):
-            #if elvImg[i][j] != None:
-            if not math.isnan(elvImg[i][j]):
-                upCell = elvImg[i-1][j] > elvImg[i][j]
-                rightCell = elvImg[i][j+1] > elvImg[i][j]
-                downCell = elvImg[i+1][j] > elvImg[i][j]
-                leftCell = elvImg[i][j-1] > elvImg[i][j]
-                
-                if upCell and rightCell and downCell and leftCell:
-                    flDir[i][j] = 5
-                else:
-                    if 
-            else:
-                flDir[i][j] = 0
-    return flDir
-"""
-
 
 #CUDA kernel for calculating immediate flow accumulation at each nearby tile
 #called with one thread/pixel
